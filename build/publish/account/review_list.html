@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>PlayToons</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="Cache-Control" content="no-cache,no-store" />
+
+    <meta name="writer" content="" />
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="canonical" href="" />
+    <link rel="shortcut icon" href="" />
+
+    <link href="../css/swiper.min.css" rel="stylesheet" />
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="../css/mobile.css" rel="stylesheet" />
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/common.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header" class="header">
+        <div class="inr-c">
+          <button type="button" class="btn_gnb" title="메뉴">
+            <span
+              ><i class="fa-solid fa-bars"></i
+              ><!-- <FontAwesomeIcon icon="fa-solid fa-bars" /> --></span
+            >
+          </button>
+          <h1 class="logo">
+            <a href="#"><span class="ico_logo">PlayToons</span></a>
+          </h1>
+
+          <div class="rgh">
+            <div class="box_hd_sch">
+              <input
+                type="text"
+                class="inp_txt"
+                placeholder="検索キーワードを入力"
+              />
+              <button type="button" class="btns">
+                <span
+                  ><i class="fa-light fa-magnifying-glass"></i
+                  ><!-- <FontAwesomeIcon icon="fa-light fa-magnifying-glass" /> --></span
+                >
+              </button>
+            </div>
+            <button type="button" class="mo_btns view-m">
+              <i class="fa-light fa-magnifying-glass"></i
+              ><!-- <FontAwesomeIcon icon="fa-light fa-magnifying-glass" /> --></button
+            ><!-- 모바일 검색 버튼 -->
+            <a href="#" class="btn_tugo btn-pk n blue bdrs"
+              ><span>投稿</span></a
+            >
+            <a href="#" class="btn_profile"
+              ><span
+                style="
+                  background-image: url('../images/common/img_profile.png');
+                "
+                >마이페이지</span
+              ></a
+            >
+          </div>
+        </div>
+        <div class="inr-c gnbbox view-m">
+          <!-- 모바일 헤더 -->
+          <nav class="gnb">
+            <ul>
+              <li><a href="#">ホーム</a></li>
+              <li><a href="#">タイムライン</a></li>
+              <li><a href="#">クリエイター</a></li>
+              <li><a href="#">マケット</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- //header -->
+
+      <div id="container" class="container list">
+        <div class="hd_tabbox">
+          <div class="tabs ty1">
+            <ul class="inr-c">
+              <li>
+                <a href="#"><span>購入一覧</span></a>
+              </li>
+              <li class="on">
+                <a href="#"><span>レビューリスト</span></a>
+              </li>
+              <li>
+                <a href="#"><span>お問合せ一覧</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="inr-c">
+          <div class="hd_titbox2">
+            <h2 class="h_tit1 mb10"><strong>レビュー期限</strong></h2>
+
+            <div class="inp_cal">
+              <div>
+                <label for="calendar_first1">開始日</label>
+                <input
+                  type="text"
+                  id="calendar_first1"
+                  class="inp_txt calendar datepicker_first"
+                />
+              </div>
+              <div>
+                <label for="calendar_last1">終了日</label>
+                <input
+                  type="text"
+                  id="calendar_last1"
+                  class="inp_txt calendar datepicker_last"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="tbl_basic mtbl_ty1">
+            <table class="list">
+              <caption>
+                목록
+              </caption>
+              <colgroup>
+                <col class="num" />
+                <col class="imgs2" />
+                <col />
+                <col class="wid4" />
+                <col class="wid4" />
+                <col class="wid4" />
+                <col class="wid5 hide-m" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th class="hide-m">番号</th>
+                  <th>商品</th>
+                  <th>タイトル</th>
+                  <th>評価</th>
+                  <th>作成日</th>
+                  <th></th>
+                  <th class="hide-m"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr_q">
+                  <td class="hide-m">1</td>
+                  <td class="td_imgs2">
+                    <div class="cx_thumb">
+                      <span
+                        ><img src="../images/tmp/tmp_comic1.jpg" alt="사진"
+                      /></span>
+                    </div>
+                  </td>
+                  <td class="td_subject">
+                    大学のリンゴ一個の重さで10メートルの素材
+                  </td>
+                  <td class="td_txt0">
+                    <span class="view-m">販売開始日：</span>2022/06/01
+                  </td>
+                  <td class="td_star">
+                    <div class="t_star">
+                      <span class="s4"
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                      ></span>
+                    </div>
+                  </td>
+                  <td class="td_btns2 ta-r et_botm1">
+                    <div class="d-ib">
+                      <a href="#" class="btn-pk s blue2 mw100p"
+                        ><span>削除</span></a
+                      >
+                    </div>
+                  </td>
+                  <td class="hide-m ta-c">
+                    <button type="button" class="arr" onclick="tblQR1(this);">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr class="tr_a">
+                  <td class="hide-m"></td>
+                  <td colspan="5" class="ta-l">
+                    <div class="tx_a1">
+                      <button
+                        type="button"
+                        class="arr view-m"
+                        onclick="tblQR2(this);"
+                      ></button>
+                      <p class="t1">
+                        ラフ公開や制作工程の紹介、他にも何かやれそうな事があったら公開できればと思います。ご支援いただいた分は作業環境・技術向上に使わせていただきます。よろしくお願いいたします。
+                      </p>
+                    </div>
+                    <div class="tx_a2">
+                      <span class="re view-m"
+                        ><i class="fa-solid fa-share"></i
+                      ></span>
+                      <p class="t2">
+                        <span class="i-txt">販売者</span
+                        ><span>2022/05/11 23:21時</span>
+                      </p>
+                      <p class="t1">
+                        リヒターさん噂はかねがね、って感じだったけど本当に面白い人だった。ドナースマルク映画のイメージが強いからだいぶ引っ張られてはいたけど、トム・シリングより多弁な人だというこ
+                      </p>
+                    </div>
+                  </td>
+                  <td class="hide-m ta-c"></td>
+                </tr>
+                <tr class="tr_q">
+                  <td class="hide-m">1</td>
+                  <td class="td_imgs2">
+                    <div class="cx_thumb">
+                      <span
+                        ><img src="../images/tmp/tmp_comic1.jpg" alt="사진"
+                      /></span>
+                    </div>
+                  </td>
+                  <td class="td_subject">
+                    <span class="i-txt">回答</span
+                    >大学のリンゴ一個の重さで10メートルの素材
+                  </td>
+                  <td class="td_txt0">
+                    <span class="view-m">販売開始日：</span>2022/06/01
+                  </td>
+                  <td class="td_star">
+                    <div class="t_star">
+                      <span class="s4"
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                      ></span>
+                    </div>
+                  </td>
+                  <td class="td_btns2 ta-r et_botm1">
+                    <div class="d-ib">
+                      <a href="#" class="btn-pk s blue2 mw100p"
+                        ><span>削除</span></a
+                      >
+                    </div>
+                  </td>
+                  <td class="hide-m ta-c">
+                    <button type="button" class="arr" onclick="tblQR1(this);">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr class="tr_a">
+                  <td class="hide-m"></td>
+                  <td colspan="5" class="ta-l">
+                    <div class="tx_a1">
+                      <button
+                        type="button"
+                        class="arr view-m"
+                        onclick="tblQR2(this);"
+                      ></button>
+                      <p class="t1">
+                        ラフ公開や制作工程の紹介、他にも何かやれそうな事があったら公開できればと思います。ご支援いただいた分は作業環境・技術向上に使わせていただきます。よろしくお願いいたします。
+                      </p>
+                    </div>
+                    <div class="tx_a2">
+                      <span class="re view-m"
+                        ><i class="fa-solid fa-share"></i
+                      ></span>
+                      <p class="t2">
+                        <span class="i-txt">販売者</span
+                        ><span>2022/05/11 23:21時</span>
+                      </p>
+                      <p class="t1">
+                        リヒターさん噂はかねがね、って感じだったけど本当に面白い人だった。ドナースマルク映画のイメージが強いからだいぶ引っ張られてはいたけど、トム・シリングより多弁な人だというこ
+                      </p>
+                    </div>
+                  </td>
+                  <td class="hide-m ta-c"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function tblQR1(e) {
+          var obj = $(e).closest(".tr_q");
+
+          if (obj.next(".tr_a").hasClass("on")) {
+            obj.next(".tr_a").removeClass("on");
+            obj.next(".tr_a").hide();
+            obj.removeClass("on");
+          } else {
+            obj.next(".tr_a").addClass("on");
+            obj.next(".tr_a").show();
+            obj.addClass("on");
+          }
+        }
+        function tblQR2(e) {
+          var obj = $(e).closest(".tr_a");
+
+          if (obj.hasClass("on")) {
+            obj.removeClass("on");
+          } else {
+            obj.addClass("on");
+          }
+        }
+      </script>
+    </div>
+    <!--//wrap -->
+  </body>
+</html>

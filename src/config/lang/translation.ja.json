@@ -1,0 +1,36 @@
+{
+  "header": {
+    "searchPlaceholder": "検索キーワードを入力",
+    "logo": "PlayToons",
+    "post": "投稿",
+    "doPost": "投稿する",
+    "registerMarket": "マケットに登録",
+    "profile": "プロフィール",
+    "vaildatePoint": "保有ポイント",
+    "charge": "チャージ",
+    "registerCreator": "クリエイター登録",
+    "dashboard": "ダッシュボード",
+    "supporingCreator": "支援中のクリエイター",
+    "followingCreator": "フォロー中のクリエイター",
+    "purchaseList": "購入一覧",
+    "reviewList": "レビューリスト",
+    "contactList": "お問合せ一覧",
+    "setting": "設定",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "language": "言語",
+    "ja-JP": "日本語",
+    "ko-KR": "한국어",
+    "en-US": "English"
+  },
+  "sidebar":{
+    "home": "ホーム",
+    "timeline": "タイムライン",
+    "creator": "クリエイター",
+    "market": "マケット"
+  },
+  "popup":{
+    "doNotRegisterCreatorCanNotPost": "クリエイターとして登録しなければ、投稿できません。",
+    "doNotRegisterCreatorCanNotEnterDashboard": "クリエイターとして登録しなければ、ダッシュボードを利用できません。"
+  }
+}

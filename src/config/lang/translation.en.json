@@ -1,0 +1,36 @@
+{
+  "header": {
+    "searchPlaceholder": "input a search keyword",
+    "logo": "PlayToons",
+    "post": "Post",
+    "doPost": "Post",
+    "registerMarket": "Register for Market",
+    "profile": "profile",
+    "vaildatePoint": "holding point",
+    "charge": "charge",
+    "registerCreator": "creator registration",
+    "dashboard": "dashboard",
+    "supporingCreator": "supporting creator",
+    "followingCreator": "following creator",
+    "purchaseList": "purchase list",
+    "reviewList": "review list",
+    "contactList": "contact list",
+    "setting": "setting",
+    "logout": "logout",
+    "login": "login",
+    "language": "language",
+    "ja-JP": "日本語",
+    "ko-KR": "한국어",
+    "en-US": "English"
+  },
+  "sidebar":{
+    "home": "home",
+    "timeline": "timeline",
+    "creator": "creator",
+    "market": "market"
+  },
+  "popup":{
+    "doNotRegisterCreatorCanNotPost": "If you don't register as a creator, you can't post.",
+    "doNotRegisterCreatorCanNotEnterDashboard": "If you don't register as a creator, you won't be able to use the dashboard."
+  }
+}

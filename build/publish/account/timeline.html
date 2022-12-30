@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>PlayToons</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="Cache-Control" content="no-cache,no-store" />
+
+    <meta name="writer" content="" />
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="canonical" href="" />
+    <link rel="shortcut icon" href="" />
+
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header" class="header">
+        <div class="inr-c">
+          <!-- 1. 로그인전 : 메뉴 버튼 없음-->
+          <button type="button" class="btn_gnb" title="메뉴">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <h1 class="logo">
+            <a href="#"><span class="ico_logo">PlayToons</span></a>
+          </h1>
+
+          <div class="rgh">
+            <div class="box_hd_sch">
+              <input
+                type="text"
+                class="inp_txt"
+                placeholder="検索キーワードを入力"
+              />
+              <button type="button" class="btns">
+                <span><i class="fa-light fa-magnifying-glass"></i></span>
+              </button>
+            </div>
+            <button type="button" class="mo_btns view-m">
+              <i class="fa-light fa-magnifying-glass"></i></button
+            ><!-- 모바일 검색 버튼 -->
+
+            <!-- 1. 로그인전 -->
+            <!-- <a href="#" class="btn_log btn-pk n blue bdrs"><span>ログイン</span></a> -->
+
+            <!-- 2. 로그인후 -->
+            <a href="#" class="btn_tugo btn-pk n blue bdrs"
+              ><span>投稿</span></a
+            >
+            <a href="#" class="btn_profile"
+              ><span
+                style="background-image: url('images/common/img_profile.png')"
+                >마이페이지</span
+              ></a
+            >
+          </div>
+        </div>
+        <div class="inr-c gnbbox view-m">
+          <!-- 모바일 헤더 -->
+          <nav class="gnb">
+            <ul>
+              <li><a href="#">ホーム</a></li>
+              <li><a href="#">タイムライン</a></li>
+              <li><a href="#">クリエイター</a></li>
+              <li><a href="#">マケット</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- //header -->
+
+      <div id="container" class="container dashboard timeline">
+        <aside class="sidebar">
+          <div class="top view-m">
+            <button type="button" class="btn_gnb" title="메뉴">
+              <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <h1 class="logo">
+              <a href="#"><span class="ico_logo">PlayToons</span></a>
+            </h1>
+          </div>
+          <h2 class="tit">探索</h2>
+          <nav class="menu">
+            <ul>
+              <li class="s1">
+                <a href="#">
+                  <span class="ico"
+                    ><i class="fa-light fa-house-chimney-window"></i
+                  ></span>
+                  <span>探索</span>
+                </a>
+              </li>
+              <li class="s2 on">
+                <a href="#">
+                  <span class="ico"><i class="fa-solid fa-infinity"></i></span>
+                  <span>タイムライン</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <h2 class="tit bdt">創作</h2>
+          <nav class="menu">
+            <ul>
+              <li class="s3">
+                <a href="#">
+                  <span class="ico"><i class="fa-light fa-stars"></i></span>
+                  <span>クリエイターリスト</span>
+                </a>
+              </li>
+              <li class="s4">
+                <a href="#">
+                  <span class="ico"
+                    ><i class="fa-light fa-cart-shopping"></i
+                  ></span>
+                  <span>マケットプレイス</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="contents">
+          <div class="wrap_timeline">
+            <div class="rgh">
+              <button type="button" class="btn01">
+                <span class="i"><i class="fa-solid fa-chevron-up"></i></span>
+              </button>
+              <button type="button" class="btn01">
+                <span class="i"><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+            </div>
+
+            <div class="col active">
+              <div class="bt_bar">
+                <div class="bar"><span style="width: 20%"></span></div>
+              </div>
+              <div class="thumb">
+                <span
+                  style="background-image: url(images/tmp/tmp_comic3.png)"
+                ></span>
+              </div>
+              <div class="cont">
+                <p class="t1">
+                  PlayToons「プレイトゥーンズ」は、<br />クリエイターと支援者を繋ぐコミュニティです。
+                </p>
+                <div class="t_profile">
+                  <span
+                    class="im"
+                    style="background-image: url(images/common/img_profile.png)"
+                  ></span>
+                  <p>Studio reBornStudio reBorn</p>
+                </div>
+                <button type="button" class="btn-pk n blue">フォロー</button>
+              </div>
+
+              <div class="bt_top">
+                <button type="button" class="btn01 view-m">
+                  <span class="i"><i class="fa-solid fa-chevron-left"></i></span
+                  ><span class="hidden">prev</span>
+                </button>
+                <button type="button" class="btn01" onclick="boxDrop(this);">
+                  <span class="i"
+                    ><i class="fa-regular fa-ellipsis-vertical"></i
+                  ></span>
+                </button>
+                <div class="box_drop">
+                  <ul>
+                    <li>
+                      <a href="#" onclick="showComm(this); return false;"
+                        ><i class="fa-light fa-pen-to-square"></i>修正</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" onclick="showDrop('popDelete'); return false;"
+                        ><i class="fa-light fa-trash"></i>削除</a
+                      >
+                    </li>
+                    <!-- <li><a href="#" onclick="showDrop('popReport'); return false;"><i class="fa-light fa-flag"></i>通報</a></li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="bt_botm">
+                <button type="button" class="btn01">
+                  <span class="i"><i class="fa-solid fa-heart"></i></span
+                  ><span>1.2k</span>
+                </button>
+                <button type="button" class="btn01">
+                  <span class="i"
+                    ><i class="fa-solid fa-comment-quote"></i></span
+                  ><span>766</span>
+                </button>
+                <button type="button" class="btn01">
+                  <span class="i"><i class="fa-solid fa-share"></i></span
+                  ><span class="hidden">share</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="bt_bar">
+                <div class="bar"><span style="width: 20%"></span></div>
+              </div>
+              <div class="thumb">
+                <span
+                  style="background-image: url(images/tmp/tmp_comic3.png)"
+                ></span>
+              </div>
+              <div class="cont">
+                <p class="t1">
+                  PlayToons「プレイトゥーンズ」は、<br />クリエイターと支援者を繋ぐコミュニティです。
+                </p>
+                <div class="t_profile">
+                  <span
+                    class="im"
+                    style="background-image: url(images/common/img_profile.png)"
+                  ></span>
+                  <p>Studio reBornStudio reBorn</p>
+                </div>
+                <button type="button" class="btn-pk n blue">フォロー</button>
+              </div>
+
+              <div class="bt_top">
+                <button type="button" class="btn01 hidden">
+                  <span class="i"><i class="fa-solid fa-chevron-left"></i></span
+                  ><span class="hidden">prev</span>
+                </button>
+                <button type="button" class="btn01" onclick="boxDrop(this);">
+                  <span class="i"
+                    ><i class="fa-regular fa-ellipsis-vertical"></i
+                  ></span>
+                </button>
+                <div class="box_drop">
+                  <ul>
+                    <li>
+                      <a href="#" onclick="showComm(this); return false;"
+                        ><i class="fa-light fa-pen-to-square"></i>修正</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" onclick="showDrop('popDelete'); return false;"
+                        ><i class="fa-light fa-trash"></i>削除</a
+                      >
+                    </li>
+                    <!-- <li><a href="#" onclick="showDrop('popReport'); return false;"><i class="fa-light fa-flag"></i>通報</a></li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="bt_botm">
+                <button type="button" class="btn01">
+                  <span class="i"><i class="fa-solid fa-heart"></i></span
+                  ><span>1.2k</span>
+                </button>
+                <button type="button" class="btn01">
+                  <span class="i"
+                    ><i class="fa-solid fa-comment-quote"></i></span
+                  ><span>766</span>
+                </button>
+                <button type="button" class="btn01">
+                  <span class="i"><i class="fa-solid fa-share"></i></span
+                  ><span class="hidden">share</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        //드롭박스
+        function boxDrop(e) {
+          var $this = $(e);
+          $this.next(".box_drop").toggle();
+          $this.toggleClass("active");
+
+          $(document).on("touchstart focusin mouseup", function (e) {
+            var select1 = $(".box_drop");
+
+            if (select1.has(e.target).length === 0) {
+              $this.removeClass("active");
+              select1.stop().slideUp(100);
+            }
+          });
+        }
+      </script>
+    </div>
+    <!--//wrap -->
+  </body>
+</html>
