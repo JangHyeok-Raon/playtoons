@@ -1,0 +1,75 @@
+:root { 
+  --alto: #dedede;
+  --apple: #3ac837;
+  --baltic-sea: #2c2c2e;
+  --black: #000000;
+  --black-2: #00000033;
+  --bon-jour: #dfdfdf;
+  --bright-gray: #3a434d;
+  --celeste: #cdcdcd;
+  --charade: #272d33;
+  --chicago: #5e5e5e;
+  --deep-space-sparkle: #4d5a67;
+  --desert-storm: #f7f8f9;    
+  --eerie-black: #1d1d1d;
+  --ghost: #c5c5d0;
+  --governor-bay: #3333cc;
+  --gray: #919191;
+  --gunsmoke: #858585;
+  --indigo: #4859ca;    /*primary-c10*/
+  --indigo-2: #5a6acf;  /*primary-c09*/
+  --iron: #d7d7d7;
+  --jumbo: #7b7b7f;
+  --licorice: #111111;
+  --link-water: #dadef4;  /*primary-c02*/
+  --manatee: #909dab;
+  --mercury: #dde1e5;
+  --moody-blue: #6c7ad4;
+  --mountain-mist: #969696;
+  --nevada: #617080;
+  --quill-gray: #d4d4d4;
+  --selago: #edeefa;          /*primary-c01*/
+  --shadow-blue: #768798;
+  --tiara: #c3cad2;
+  --violet-blue: #394bc2;     /*primary-c11*/
+  --vulcan: #13161a;
+  --white: #ffffff;
+  --wild-blue-yonder: #a3ace4;  /*primary-c05*/
+  --star-yellow: #FFD800;       /* review star */
+  --star-gray: #A9B4BE;         /* review star */
+  --status-green : #2B9429;     /* Green/06  */
+  --status-orange : #ED8812;     /* Orange/05   */
+  --status-red : #F11C0E;       /* Red/05   */
+  --line-gray : #979797;        
+  --green-01 : #EFFBEF;
+  --red-01: #FEEDEC;
+
+  --primary-c01: #edeefa;
+  --primary-c02: #dadef4;
+  --primary-c03: #c8cdef;
+  --primary-c04: #b6bdea;
+  --primary-c05: #a3ace4;
+  --primary-c06: #919bdf;
+  --primary-c07: #7f8bda;
+  --primary-c08: #6c7ad4;
+  --primary-c09: #5a6acf;
+  --primary-c10: #4859ca;
+  --primary-c11: #394bc2;
+ 
+  --font-size-28px: 28px;
+  --font-size-32px: 32px;
+  --font-size-48px: 48px;
+  --font-size-64px: 64px;
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 13px;
+  --font-size-xl: 18px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 24px;
+  --font-size-xxs: 10px;
+ 
+  --font-family-applecoloremoji: "AppleColorEmoji", Helvetica;
+  --font-family-applesdgothicneo-bold: "AppleSDGothicNeo-Bold", Helvetica;
+  --font-family-noto_sans_jp: "Noto Sans JP", Helvetica;
+  --font-family-notosansjp-medium: "NotoSansJP-Medium", Helvetica;
+}

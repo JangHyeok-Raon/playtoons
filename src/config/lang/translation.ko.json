@@ -1,0 +1,36 @@
+{
+  "header": {
+    "searchPlaceholder": "검색키워드 입력",
+    "logo": "PlayToons",
+    "post": "투고",
+    "doPost": "투고하다",
+    "registerMarket": "마켓에 등록",
+    "profile": "프로파일",
+    "vaildatePoint": "유효포인트",
+    "charge": "충전",
+    "registerCreator": "크리에이터등록",
+    "dashboard": "대시보드",
+    "supporingCreator": "응원중인 크리에이터",
+    "followingCreator": "팔로잉 크리에이터",
+    "purchaseList": "구입이력",
+    "reviewList": "리뷰목록",
+    "contactList": "문의목록",
+    "setting": "설정",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "language": "언어",
+    "ja-JP": "日本語",
+    "ko-KR": "한국어",
+    "en-US": "English"
+  },
+  "sidebar":{
+    "home": "홈",
+    "timeline": "타임라인",
+    "creator": "크리에이터",
+    "market": "마켓"
+  },
+  "popup":{
+    "doNotRegisterCreatorCanNotPost": "크리에이터로 등록해야 투고할 수 있습니다.",
+    "doNotRegisterCreatorCanNotEnterDashboard": "크리에이터로 등록해야 대시보드에 들어갈 수 있습니다."
+  }
+}
